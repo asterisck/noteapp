@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+
+.blurry-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.note-content {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Additional styling as needed */
+.navigation-buttons {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #007BFF;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+}
+
+#logout-button {
+    background: #FF0000; /* Change the color for the logout button */
+    transform: translateX(10px);
+    
+}
+
+#create-button {
+    transform: translateX(-10px);
+    
+}

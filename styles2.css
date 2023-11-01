@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+
+.blurry-box {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.note-form {
+    margin-top: 10px;
+    text-align: center; /* Center the content in the middle */
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the input boxes in the middle */
+}
+
+input {
+    
+margin: auto;
+
+display: block;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    
+    margin: auto;
+    
+    display: block;
+        width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+textarea {
+    height: 15em; /* Adjust the height as needed */
+}
+
+.create-button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px; /* Add some space at the top to center the button */
+}
+
+.create-button:hover {
+    background: #0056b3;
+}
+.navigation-buttons {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #007BFF;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+}
+
+#logout-button {
+    background: #FF0000; /* Change the color for the logout button */
+    transform: translateX(10px);
+    
+}
+
+#create-button {
+    transform: translateX(-10px);
+    
+}
